@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (max-width: 800px) {
+  body {
+    background-image: none;
+  }
+}
+
+.bodyRegist {
+  margin: 0;
+  padding: 0;
+  
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.logoImg {
+  width: 500px;
+  height: 500px;
+}
+
+
+.containerLogin {
+  border: 3px white solid;
+  border-radius: 10px;
+  background-color: white;
+ 
+}
+
+.imgLogo {
+  width: 450px;
+  height: 450px;
+}
+.labelLogin {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+.inputLogin {
+  
+  
+  border: rgb(65, 65, 65) 1px solid;
+  
+}
+
+.imgLogoService {
+  width: 120px;
+  height: 100px;
+}
+
+label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 10px;
+  }
+  
+  .botonCalcular {
+      font-size: 1rem;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: bold;
+      border: black solid 2px;
+      padding: 5px;
+      margin-top: 20px;
+      width: 20%;
+  }
+  
+  .botonCalcular:hover {
+      background-color: aquamarine;
+  }
+  
+  .calculadora {
+      display: flex;
+      flex-flow: column;
+  }
+  
+  #opcionMesa {
+      width: 30%;
+      margin-top: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #opcionBlend {
+      width: 30%;
+      margin-top: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #resultado {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 3rem;
+      margin-top: 20px;
+  }
+  #enCuotas {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 1.5rem;
+      margin-top: 20px;
+  }
+  #ganadorSorteo {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 5rem;
+      margin-top: 20px;
+      background-color: green;
+  }
+  #cuotas {
+      width: 30%;
+      margin-top: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .imgServices {
+    width: 600px;
+    height: auto;
+    
+  }
