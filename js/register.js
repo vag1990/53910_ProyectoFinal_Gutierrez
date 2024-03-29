@@ -8,13 +8,22 @@ document.addEventListener("DOMContentLoaded", function () {
     formRegist.addEventListener("submit", function (e) {
         e.preventDefault();
         if (userRegist.value.trim() === '' || emailRegist.value.trim() === '' || passRegist.value.trim() === '') {
-            alert("Por favor completa todos los campos.");
+            Swal.fire({
+                title: "Debes completar los campos obligatorios.",
+                text: "That thing is still around?",
+                icon: "question"
+              });
             return;
         }
         if (passRegist.value.length < 6) {
-            alert("La contraseña debe tener al menos 6 caracteres.");
+            Swal.fire({
+                title: "La contraseña debe tener mas de 6 digitos.",
+                text: "Para mayor seguridad le recomendamos incluir signos y numeros.",
+                icon: "error"
+              });
             return;
-        }
+        } 
+
         const nuevoUsuario = {
             username: userRegist.value,
             email: emailRegist.value,
@@ -31,7 +40,11 @@ document.addEventListener("DOMContentLoaded", function () {
         passRegist.value = '';
 
 
-        alert("Te has registrado correctamente.")
+        Swal.fire({
+            title: "Usuario registrado!",
+            text: "Se te ha enviado un correo con instrucciones.",
+            icon: "success"
+          });
         
     });
 });

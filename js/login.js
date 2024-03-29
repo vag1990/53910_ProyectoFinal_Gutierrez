@@ -17,7 +17,34 @@ document.addEventListener("DOMContentLoaded", function () {
       camposVaciosMensaje.textContent = "Usuario o contraseña incorrectos.";
       return;
     }
-    window.location.href = "/html/servicios.html";
+
+    const Toast = Swal.mixin({
+      toast: true,
+      position: "top-end",
+      showConfirmButton: false,
+      timer: 3000,
+      timerProgressBar: true,
+      didOpen: (toast) => {
+        toast.onmouseenter = Swal.stopTimer;
+        toast.onmouseleave = Swal.resumeTimer;
+      }
+    });
+    Toast.fire({
+      icon: "success",
+      title: "Signing in ..."
+    });
+
+    setTimeout(function () {
+      window.location.href = "/html/servicios.html";
+    }, 3000); 
+
+    
+
   });
+
+
+  
+
+
 
 });
