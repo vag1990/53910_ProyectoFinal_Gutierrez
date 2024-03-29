@@ -63,4 +63,5 @@ function calculadoraPrecio() {
     
     document.getElementById("resultado").innerText = "El precio total de tu mesa personalizada es: $" + sumaTotal;
     
+    
     }

@@ -4,46 +4,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de Precio</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <title>G-AIJ | home</title>
+
 
     <!--LINK BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!--LINK CSS-->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body>
+<body class="bodyBack">
     <div class="container-fluid">
         <div class="row align-items-center">
 
-            <img class="imgLogoService" src="/img/logoCG.png" alt="logo">
+            <nav class="navbar navbar-expand-lg navBarra ">
+                <div class="container-fluid text-end ">
+                    <a class="navbar-brand" href="/index.html"><img class="imgLogoService" src="/img/logoG_IAJwhite.png"
+                            alt="logo"></a>
 
-            <ul class="nav justify-content-end ">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Servicios</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/index.html">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/html/registrar.html">Registrarse</a>
-                </li>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-            </ul>
+                    <div class="collapse navbar-collapse text-end " id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll justify-content-end"
+                            style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                                <a class="nav-link navBarra" aria-current="page" href="/html/servicios.html">Home</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle navBarra" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" id="servicio1" href="#">Legal Assets</a></li>
+                                    <li><a class="dropdown-item" id="servicio2" href="#">AI-ProJ</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider navBarra">
+                                    </li>
+                                    <li><a class="dropdown-item" id="servicio3" href="#">G_AIJ-ProPartnership</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navBarra" aria-current="page" href="#">Legal.database</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-3" id="inputBuscar" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-light" id="btnBuscar" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
 
         </div>
     </div>
 
-    <!-- <header>
-        <h1>53910 - 3ra PREENTREGA - VICTOR AGUSTIN GUTIERREZ</h1>
-    </header> -->
+    <div class="container m-5">
+        <div class="row">
+
+            <div class="col-xl-12">
+                <div id="cajaServicios">
+
+                    <!-- / aca aparecerian los servicios// -->
+
+                </div>
+            </div>
+
+            <div class="col-xl-6">
+                <h1 class="h1Home">xxxxxxx xxxxxxxx Inxxxxxnce xxxxxxxe</h1>
+            </div>
+            <div class="col-xl-6">
+                <p class="pHome">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias consequuntur nihil
+                    voluptatem
+                    deleniti asperiores? Architecto qui unde voluptatibus incidunt. Autem fugit ullam saepe excepturi
+                    pariatur aliquam commodi, aspernatur neque molestias voluptatibus ratione eaque distinctio labore
+                    maxime numquam dignissimos voluptatum, beatae error est. Officiis fugiat fuga, earum officia culpa
+                    quibusdam, consectetur voluptas, soluta maiores totam perspiciatis dicta voluptatibus nobis ipsam
+                    ea! Sunt aperiam enim ad facilis. Nihil aperiam accusamus fuga iusto eveniet assumenda inventore
+                    facere ipsam quidem? Illo exercitationem cum dolor tenetur sapiente. Minima sed enim nostrum
+                    nesciunt assumenda. Voluptatum accusantium magni animi odio incidunt nisi illo ipsa qui labore in.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo reprehenderit nulla, odit ullam
+                    aspernatur fugit magni est aperiam sint, quisquam soluta deserunt dicta inventore adipisci sequi
+                    dolorem minus placeat? Commodi at ea neque asperiores dolore, delectus totam illum eius eligendi
+                    sequi, earum dolor recusandae amet aliquid officia expedita deserunt. Quidem asperiores totam
+                    labore. Omnis aliquam cupiditate laudantium.
+                </p>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
 
     <div id="datosMesa"></div>
 
     <div class="container-fluid mt-5">
         <div class="row align-items-center">
+
+            <div class="">
+                <div id="cajaServicios">
+
+                    <!-- / aca aparecerian los servicios// -->
+
+                </div>
+            </div>
 
             <div class="col-xl-6 text-end">
                 <img class="imgServices" src="/img/services.jpg" alt="">
@@ -87,6 +160,9 @@
         crossorigin="anonymous"></script>
 
     <script src="/js/script.js"></script>
+
+    <script src="/js/services.js"></script>
+
 
 </body>
 

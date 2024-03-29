@@ -67,7 +67,7 @@ a {
 
 
 .imgLogoService {
-  width: 120px;
+  width: 100px;
   height: 100px;
 }
 
@@ -112,6 +112,11 @@ label {
       font-size: 3rem;
       margin-top: 20px;
   }
+  #cajaServicios {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 3rem;
+      margin-top: 20px;
+  }
   #enCuotas {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 1.5rem;
@@ -130,7 +135,105 @@ label {
   }
 
   .imgServices {
-    width: 600px;
+    width: 800px;
     height: auto;
     
   }
+
+  /* NAVEGADOR */
+
+  .bodyBack {
+    background-image: url(/img/bgServices.jpg);
+    
+  }
+
+  .navBarra {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+
+  /* .card-body {
+    width: 600px;
+    height: auto;
+  } */
+
+  /* .card-image-top {
+    width: auto;
+    height: auto;
+  } */
+
+  .cajaServicios {
+    display: flex;
+    flex-wrap: wrap row;
+    justify-content: space-between;
+  }
+  /* .card {
+    display: inline-block;
+    padding: 10px;
+   margin: 10px;
+    width: 30%;
+    height: auto;
+  } */
+
+  .card {
+    display: inline-block;
+    
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: 30%; /* Ajusta el ancho según sea necesario */
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px 8px 0 0;
+}
+
+.card .card-body {
+  width: 400px;
+  height: auto;
+    padding: 20px;
+}
+
+.card h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/*texto home */
+
+.h1Home {
+  color: white;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+
+}
+
+.pHome {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+
+}
+
+#inputBuscar {
+  width: 400px;
+}
