@@ -52,9 +52,20 @@ function calculadoraPrecio() {
     let sorteo = prompt ("INGRESA NRO DE DEL 1 AL 10 Y PARTICIPA POR 50% DESCUENTO")
          if (sorteo == "5"){
              sumaTotal = sumaTotal = sumaTotal - (sumaTotal*0.5) + "  (50% descuento incluido.)";
-             alert ("GANASTE UN 50% DE DESCUENTO EN TU COMPRA!!!")
+             Swal.fire({
+                icon: "success",
+                title: "HAS GANADO UN DESCUENTO DEL 50%",
+                showConfirmButton: false,
+                timer: 1500
+              });
         } else if (sorteo != "5")
-         alert ("Mejor suerte la proxima compra!!");
+        Swal.fire({
+            icon: "error",
+            title: "Sera la proxima vez...",
+            text: "Gracias por participar.",
+            showConfirmButton: false,
+                timer: 1500
+          });
          console.log("Numero de sorteo:" + sorteo);
     
     
