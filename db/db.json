@@ -1,0 +1,52 @@
+{
+    "datosServicios": {
+      "servicio1": {
+        "titulo": "Legal Assets Standard",
+        "imagen": "/img/imgservicio1.jpg",
+        "descripcion1": "Descripción del servicio 1",
+        "descripcion2": "Descripción del servicio 2",
+        "descripcion3": "Descripción del servicio 3",
+        "descripcion4": "Descripción del servicio 4"
+      },
+      "servicio2": {
+        "titulo": "Legal Assets Premium",
+        "imagen": "/img/imgservicio2.jpg",
+        "descripcion1": "Descripción del servicio 1",
+        "descripcion2": "Descripción del servicio 2",
+        "descripcion3": "Descripción del servicio 3",
+        "descripcion4": "Descripción del servicio 4"
+      },
+      "servicio3": {
+        "titulo": "AI-ProJ Online Express",
+        "imagen": "/img/imgservicio3.jpg",
+        "descripcion1": "Descripción del servicio 1",
+        "descripcion2": "Descripción del servicio 2",
+        "descripcion3": "Descripción del servicio 3",
+        "descripcion4": "Descripción del servicio 4"
+      },
+      "servicio4": {
+        "titulo": "AI-ProJ Online Standard",
+        "imagen": "/img/imgservicio4.jpg",
+        "descripcion1": "Descripción del servicio 1",
+        "descripcion2": "Descripción del servicio 2",
+        "descripcion3": "Descripción del servicio 3",
+        "descripcion4": "Descripción del servicio 4"
+      },
+      "servicio5": {
+        "titulo": "AI-ProJ Online Full",
+        "imagen": "/img/imgservicio5.jpg",
+        "descripcion1": "Descripción del servicio 1",
+        "descripcion2": "Descripción del servicio 2",
+        "descripcion3": "Descripción del servicio 3",
+        "descripcion4": "Descripción del servicio 4"
+      },
+      "servicio6": {
+        "titulo": "G_AIJ-Partnership",
+        "imagen": "/img/imgservicio6.jpg",
+        "descripcion1": "Descripción del servicio 1",
+        "descripcion2": "Descripción del servicio 2",
+        "descripcion3": "Descripción del servicio 3",
+        "descripcion4": "Descripción del servicio 4"
+      }
+    }
+  }

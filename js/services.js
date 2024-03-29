@@ -112,10 +112,8 @@ document.getElementById('servicio3').addEventListener('click', manejarClicServic
 // Función para buscar y filtrar servicios
 function buscarServicios() {
     const inputBusqueda = document.getElementById('inputBuscar');
-    const filtro = inputBusqueda.value.toLowerCase(); // Convertir la entrada a minúsculas
+    const filtro = inputBusqueda.value.toLowerCase();
     const contenedorServicios = document.getElementById('cajaServicios');
-    
-    // Limpiar el contenedor antes de agregar resultados de búsqueda
     contenedorServicios.innerHTML = '';
 
     // Filtrar servicios que coincidan con el término de búsqueda
@@ -155,3 +153,5 @@ document.getElementById('btnBuscar').addEventListener('click', function(event) {
     event.preventDefault(); // Evitar la recarga de la página
     buscarServicios();
 });
+
+
