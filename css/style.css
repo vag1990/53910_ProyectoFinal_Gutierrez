@@ -166,7 +166,7 @@ label {
   .cajaServicios {
     display: flex;
     flex-wrap: wrap row;
-    justify-content: space-between;
+    
   }
   /* .card {
     display: inline-block;
@@ -178,28 +178,30 @@ label {
 
   .card {
     display: inline-block;
-    
+    align-items: center;
     margin: 20px;
-    padding: 10px;
+    align-items: center;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+   
     overflow: hidden;
-    width: 30%; /* Ajusta el ancho según sea necesario */
+    width: 30%; 
 }
 
 .card-img-top {
     width: 100%;
     height: auto;
     display: block;
+    justify-content: center;
+
     border-radius: 8px 8px 0 0;
 }
 
 .card .card-body {
   width: 400px;
   height: auto;
-    padding: 20px;
+  
 }
 
 .card h1 {
@@ -236,4 +238,10 @@ label {
 
 #inputBuscar {
   width: 400px;
+}
+
+
+.calculadoraFondo {
+  background-image: url(/img/r1.jpg);
+  background-size: cover;
 }
